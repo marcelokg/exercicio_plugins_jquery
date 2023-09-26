@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+.container{
+    max-width: 500px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+form{
+    text-align: center;
+    justify-content: center;
+}
+
+form button{
+    display: block;
+    margin: auto;
+    background-color: green;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(1, 54, 1);
+}
+
+.container label{
+    font-size: 18px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.container input{
+    padding: 5px;
+    width: 300px;
+}
